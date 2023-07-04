@@ -1,0 +1,77 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: burlywood;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styles */
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Input container styles */
+  .input-container {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  /* Task input styles */
+  #task-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  /* Add task button styles */
+  button {
+    padding: 10px 20px;
+    background-color: #24bed5;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Task list styles */
+  #task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Task item styles */
+  .task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Task text styles */
+  .task-text {
+    flex: 1;
+    margin-left: 10px;
+  }
+  
+  /* Completed task styles */
+  .completed-task {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  
+  
